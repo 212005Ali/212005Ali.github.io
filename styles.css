@@ -1,0 +1,85 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #343a40;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #007bff;
+}
+
+/* Navbar */
+.navbar {
+  padding: 1rem 0;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+/* Hero Section */
+#hero {
+  height: 100vh;
+  background-image: url('images/tulip-4k-background-desktop-computer-wallpaper-preview.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+/* About Section */
+#about {
+  padding: 4rem 0;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* Portfolio Section */
+#portfolio {
+  padding: 4rem 0;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* Contact Section */
+#contact {
+  padding: 4rem 0;
+}
+
+.btn-primary {
+  background-color: #e100ff;
+  border-color: #e100ff;
+}
+
+.btn-primary:hover {
+  background-color: #a400b3;
+  border-color: #b300a4;
+}
+
+/* Footer */
+footer {
+  color: #fff;
+  background-color: #343a40;
+}
